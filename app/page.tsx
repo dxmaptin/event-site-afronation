@@ -2,7 +2,6 @@
 
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
-import { Card, CardContent } from "@/components/ui/card"
 import { useEffect, useState } from "react"
 import { Outfit } from 'next/font/google'
 
@@ -17,8 +16,6 @@ export default function AfronationWebsite() {
   useEffect(() => {
     const handleScroll = () => {
       const sections = document.querySelectorAll('.section-container')
-      const scrollPosition = window.scrollY
-
       sections.forEach((section, index) => {
         const rect = section.getBoundingClientRect()
         const sectionTop = rect.top
@@ -99,7 +96,7 @@ export default function AfronationWebsite() {
           {/* Text Overlay */}
           <div className="absolute inset-0 flex flex-col items-center justify-center text-center px-4 z-20 space-y-6">
             <h1 className="heading-medium text-white">
-              The World's Biggest Afrobeats Festival
+              The World&apos;s Biggest Afrobeats Festival
             </h1>
             <div className="heading-large gradient-text">
               Proudly Celebrating Culture Through Music, Food & Art
@@ -182,7 +179,7 @@ export default function AfronationWebsite() {
                     </li>
                     <li className="flex items-center text-gray-300">
                       <span className="text-pink-500 mr-2">•</span>
-                      Meet & greet opportunities
+                      Meet &amp; greet opportunities
                     </li>
                     <li className="flex items-center text-gray-300">
                       <span className="text-pink-500 mr-2">•</span>
@@ -250,7 +247,7 @@ export default function AfronationWebsite() {
                     </li>
                     <li className="flex items-center text-gray-300">
                       <span className="text-pink-500 mr-2">•</span>
-                      Food & drink vendors
+                      Food &amp; drink vendors
                     </li>
                     <li className="flex items-center text-gray-300">
                       <span className="text-pink-500 mr-2">•</span>
@@ -322,7 +319,7 @@ export default function AfronationWebsite() {
                     </li>
                     <li className="flex items-center text-gray-300">
                       <span className="text-pink-500 mr-2">•</span>
-                      Meet & greet opportunities
+                      Meet &amp; greet opportunities
                     </li>
                     <li className="flex items-center text-gray-300">
                       <span className="text-pink-500 mr-2">•</span>
@@ -390,7 +387,7 @@ export default function AfronationWebsite() {
                     </li>
                     <li className="flex items-center text-gray-300">
                       <span className="text-pink-500 mr-2">•</span>
-                      Food & drink vendors
+                      Food &amp; drink vendors
                     </li>
                     <li className="flex items-center text-gray-300">
                       <span className="text-pink-500 mr-2">•</span>
@@ -462,7 +459,7 @@ export default function AfronationWebsite() {
                     </li>
                     <li className="flex items-center text-gray-300">
                       <span className="text-pink-500 mr-2">•</span>
-                      Meet & greet opportunities
+                      Meet &amp; greet opportunities
                     </li>
                     <li className="flex items-center text-gray-300">
                       <span className="text-pink-500 mr-2">•</span>
@@ -530,7 +527,7 @@ export default function AfronationWebsite() {
                     </li>
                     <li className="flex items-center text-gray-300">
                       <span className="text-pink-500 mr-2">•</span>
-                      Food & drink vendors
+                      Food &amp; drink vendors
                     </li>
                     <li className="flex items-center text-gray-300">
                       <span className="text-pink-500 mr-2">•</span>
